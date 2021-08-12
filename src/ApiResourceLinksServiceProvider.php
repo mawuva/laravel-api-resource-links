@@ -1,10 +1,10 @@
 <?php
 
-namespace Mawuekom\LaravelApiResourceLinks;
+namespace Mawuekom\ApiResourceLinks;
 
 use Illuminate\Support\ServiceProvider;
 
-class LaravelApiResourceLinksServiceProvider extends ServiceProvider
+class ApiResourceLinksServiceProvider extends ServiceProvider
 {
     /**
      * Bootstrap the application services.
@@ -54,7 +54,7 @@ class LaravelApiResourceLinksServiceProvider extends ServiceProvider
 
         // Register the main class to use with the facade
         $this->app->singleton('laravel-api-resource-links', function () {
-            return new LaravelApiResourceLinks;
+            return new ApiResourceLinks;
         });
     }
 }

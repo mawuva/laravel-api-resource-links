@@ -1,13 +1,13 @@
 <?php
 
-namespace Mawuekom\LaravelApiResourceLinks;
+namespace Mawuekom\ApiResourceLinks;
 
 use Illuminate\Support\Facades\Facade;
 
 /**
- * @see \Mawuekom\LaravelApiResourceLinks\Skeleton\SkeletonClass
+ * @see \Mawuekom\ApiResourceLinks\Skeleton\SkeletonClass
  */
-class LaravelApiResourceLinksFacade extends Facade
+class ApiResourceLinksFacade extends Facade
 {
     /**
      * Get the registered name of the component.
