@@ -48,4 +48,41 @@ trait ApiResourceLinks
             ],
         ];
     }
+
+    /**
+     * Format api resource collection link.
+     *
+     * @param string $resource_route
+     *
+     * @return array
+     */
+    public function collectionLinks(string $resource_route): array
+    {
+        return [
+            'index' => url($resource_route),
+            'store' => url($resource_route),
+        ];
+    }
+
+    /**
+     * Format api resource collection link in details
+     *
+     * @param string $resource_route
+     *
+     * @return array
+     */
+    public function collectionLinksDetails(string $resource_route): array
+    {
+        return [
+            'index'         => [
+                'method'    => 'get',
+                'action'    => url($resource_route)
+            ],
+
+            'store'         => [
+                'method'    => 'post',
+                'action'    => url($resource_route)
+            ],
+        ];
+    }
 }
