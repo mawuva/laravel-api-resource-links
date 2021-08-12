@@ -1,9 +1,5 @@
 # Laravel API Resource Links
 
-[![Latest Version on Packagist](https://img.shields.io/packagist/v/mawuekom/laravel-api-resource-links.svg?style=flat-square)](https://packagist.org/packages/mawuekom/laravel-api-resource-links)
-[![Total Downloads](https://img.shields.io/packagist/dt/mawuekom/laravel-api-resource-links.svg?style=flat-square)](https://packagist.org/packages/mawuekom/laravel-api-resource-links)
-![GitHub Actions](https://github.com/mawuva/laravel-api-resource-links/actions/workflows/main.yml/badge.svg)
-
 This is help you generate resource links for your API resources.
 
 ## Installation
