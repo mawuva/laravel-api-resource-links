@@ -1,10 +1,10 @@
-# Very short description of the package
+# Laravel API Resource Links
 
-[![Latest Version on Packagist](https://img.shields.io/packagist/v/mawuekom/laravel-api-resource-links.svg?style=flat-square)](https://packagist.org/packages/mawuekom/laravel-api-resource-links)
-[![Total Downloads](https://img.shields.io/packagist/dt/mawuekom/laravel-api-resource-links.svg?style=flat-square)](https://packagist.org/packages/mawuekom/laravel-api-resource-links)
-![GitHub Actions](https://github.com/mawuekom/laravel-api-resource-links/actions/workflows/main.yml/badge.svg)
+[![Latest Version on Packagist](https://img.shields.io/packagist/v/mawuekom/laravel-api-resource-links.svg?style=flat-square)](https://packagist.org/packages/mawuva/laravel-api-resource-links)
+[![Total Downloads](https://img.shields.io/packagist/dt/mawuva/laravel-api-resource-links.svg?style=flat-square)](https://packagist.org/packages/mawuva/laravel-api-resource-links)
+![GitHub Actions](https://github.com/mawuva/laravel-api-resource-links/actions/workflows/main.yml/badge.svg)
 
-This is where your description should go. Try and limit it to a paragraph or two, and maybe throw in a mention of what PSRs you support to avoid any confusion with users and contributors.
+This is help you generate resource links for your API resources.
 
 ## Installation
 
@@ -17,7 +17,7 @@ composer require mawuekom/laravel-api-resource-links
 ## Usage
 
 ```php
-// Usage description here
+// In construction
 ```
 
 ### Testing
@@ -38,15 +38,7 @@ Please see [CONTRIBUTING](CONTRIBUTING.md) for details.
 
 If you discover any security related issues, please email seddorephraim7@gmail.com instead of using the issue tracker.
 
-## Credits
-
--   [Ephraïm Seddor](https://github.com/mawuekom)
--   [All Contributors](../../contributors)
-
 ## License
 
 The MIT License (MIT). Please see [License File](LICENSE.md) for more information.
 
-## Laravel Package Boilerplate
-
-This package was generated using the [Laravel Package Boilerplate](https://laravelpackageboilerplate.com).
